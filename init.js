@@ -1,10 +1,7 @@
 const CryptoJS = require('./lib/CryptoJS');
 const data = require('./config');
 
-//填写RestrictionsOasswirdKey
 let key = data.RestrictionsOasswirdKey,
-
-//填写RestrictionsPasswordKey
     salt = data.RestrictionsPasswordKey,
 
     star = 0,
