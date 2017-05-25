@@ -12,7 +12,7 @@ let key = data.RestrictionsOasswirdKey,
     let pass = ('0000' + star).slice(-4),
         code = crypto.pbkdf2Sync(pass,saltBase64,1000,20,'sha1').toString('hex');               
     console.log('正式尝试：' + pass);
-    if(code.toString() === keyBase64){
+    if(code === keyBase64){
         console.log('你的iOS访问限制密码是：' + pass);
     }else if(star < end){
         star++;
