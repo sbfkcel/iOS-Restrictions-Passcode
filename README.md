@@ -35,9 +35,9 @@ http://www.icopybot.com/download.htm
 
 https://nodejs.org/
 
-## 感谢
+## 支持者
 
-[jeky](https://github.com/jekywong)提供的优化思路
+感谢[jeky](https://github.com/jekywong)建议的优化思路
 
 
 
