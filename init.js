@@ -1,11 +1,9 @@
 const [crypto,data] = [require('crypto'),require('./config')];
 
-let key = data.RestrictionsOasswirdKey,
-    salt = data.RestrictionsPasswordKey,
-    star = 0,
+let star = 0,
     end = 9999,
-    keyBase64 = new Buffer(key,'base64').toString('hex'),
-    saltBase64 = new Buffer(salt,'base64'),
+    keyBase64 = new Buffer(data.RestrictionsOasswirdKey,'base64').toString('hex'),
+    saltBase64 = new Buffer(data.RestrictionsPasswordKey,'base64'),
     init;
     
 (init = ()=>{
