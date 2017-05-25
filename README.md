@@ -15,15 +15,10 @@
 
 五、将data对应的填进`config.js`文件中
 
-六、然后使用`node`执行`init.js`或`initHighPower.js`
+六、然后使用`node`执行`init.js`
 
 ```
-#单进程
 node init.js
-
-
-#多进程，取决于CPU核数
-node initHighPower.js
 ```
 
 然后就等待结果吧……
