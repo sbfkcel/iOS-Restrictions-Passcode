@@ -13,7 +13,7 @@
 
 四、找到`RestrictionsOasswirdKey`、`RestrictionsPasswordKey`所对应的data
 
-五、将data对应的填进`config.js`文件中
+五、将data对应的值填进`config.js`文件中
 
 六、然后使用`node`执行`init.js`
 
