@@ -2,6 +2,8 @@
 
 用于从iOS备份文件找回访问限制密码
 
+![demo](https://cdn.rawgit.com/sbfkcel/iOS-Restrictions-Passcode/c110e5fc/demo.png)
+
 
 ## 如何操作？
 
